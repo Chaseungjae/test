@@ -1,12 +1,10 @@
 .highlight {
   color: darkgreen;
   background-color: #e6ffe6;
-  font-size: 24px;
 }
 
 .quote {
   font-style: italic;
-  font-size: 18px;
   color: #800000;
   background-color: #f5f5dc;
 }

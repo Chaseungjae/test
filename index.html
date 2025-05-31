@@ -5,52 +5,53 @@
   <title>나의 홈페이지</title>
   <link rel="stylesheet" href="style1.css">
   <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
+    <h1 class="title">환영합니다! 👋</h1>
 
-  <h1 class="title">환영합니다! 👋</h1>
+    <!-- 사진 + 테이블 나란히 배치 -->
+    <div class="profile-container">
+      <img src="빠큐.jpg" alt="본인 사진" class="profile-img">
+      <table class="info-table">
+        <tr>
+          <th>이름</th>
+          <td>차승재</td>
+        </tr>
+        <tr>
+          <th>학교</th>
+          <td>계명대학교</td>
+        </tr>
+        <tr>
+          <th>전공</th>
+          <td>게임소프트웨어</td>
+        </tr>
+        <tr>
+          <th>취미</th>
+          <td><i>프로그래밍, 게임, 여행</i></td>
+        </tr>
+      </table>
+    </div>
 
-  <!-- 본인 사진 -->
-  <div style="text-align: center;">
-    <tr><img src="빠큐.jpg" alt="본인 사진" width="200">
+    <h2 class="highlight">제가 좋아하는 말 💬</h2>
+    <p class="quote">"니 엄마다."</p>
 
-  <!-- 개인 소개 테이블 -->
-  <table border="1">
-    <tr>
-      <th>이름</th>
-      <td>차승재</td>
-    </tr>
-    <tr>
-      <th>학교</th>
-      <td>계명대학교</td>
-    </tr>
-    <tr>
-      <th>전공</th>
-      <td>게임소프트웨어</td>
-    </tr>
-    <tr>
-      <th>취미</th>
-      <td><i>프로그래밍, 게임, 여행</i></td>
-    </tr>
-  </table>
+    <h3 class="video-title">좋아하는 유튜브 영상</h3>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/kUcbusEafyE?si=MzWHDRy6DBKlmum_" 
+              title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
 
-  <h2 class="highlight">제가 좋아하는 말 💬</h2>
-  <p class="quote">"니 엄마다."</p>
-
-  <!-- 유튜브 영상 추가 -->
-  <h3>좋아하는 유튜브 영상</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kUcbusEafyE?si=MzWHDRy6DBKlmum_" 
-          title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-
-  <!-- 검색엔진 로고와 링크 -->
-  <div class="search-engines">
-    <a href="https://www.google.com" target="_blank">
-      <img src="https://youtu.be/pS57UX6s-xw?si=G_scbtMQtNjSAwu4" alt="Google">
-    </a>
-    <a href="https://www.naver.com" target="_blank">
-      <img src="https://blog.kakaocdn.net/dn/CNxUY/btqw7dnElRU/HuVZgvpT6J8n4aEYFathEk/img.jpg" alt="Naver" height="50">
-    </a>
+    <h3 class="search-title">자주 사용하는 사이트</h3>
+    <div class="search-engines">
+      <a href="https://www.google.com" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnxefHYLnvWuIF1nChEInB3ekM6BbxYGzHA&s" alt="Google">
+      </a>
+      <a href="https://www.naver.com" target="_blank">
+        <img src="https://blog.kakaocdn.net/dn/CNxUY/btqw7dnElRU/HuVZgvpT6J8n4aEYFathEk/img.jpg" alt="Naver">
+      </a>
+    </div>
   </div>
-
 </body>
 </html>

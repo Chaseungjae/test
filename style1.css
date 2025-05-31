@@ -1,60 +1,103 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
-    background-color: #f5f5f5;
-    color: #333;
+  font-family: 'Gowun Dodum', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #eef1f6);
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  background-color: #f4f4f4;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .profile-img {
-    width: 200px;
-    border-radius: 15px;
-    border: 2px solid #444;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-table {
-    width: 60%;
-    margin: auto;
-    border-collapse: collapse;
-    background-color: #ffffff;
-    box-shadow: 0 0 5px #aaa;
+.info-table {
+  border-collapse: collapse;
+  width: 300px;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
+.info-table th,
+.info-table td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
 }
 
-th {
-    background-color: #f0f0f0;
-    color: #000080;
+.info-table th {
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.blue-bg {
-    background-color: #d0ebff;
-    padding: 10px;
+.highlight {
+  text-align: center;
+  color: #d35400;
+  font-size: 1.5em;
 }
 
-.yellow-bg {
-    background-color: #fff8b3;
-    padding: 10px;
+.quote {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 40px;
 }
 
-.large-text {
-    font-size: 1.5em;
+.video-title, .search-title {
+  text-align: center;
+  margin-top: 30px;
+  color: #2c3e50;
+  background-color: #e6e6ff;
 }
 
-footer {
-    text-align: center;
-    margin-top: 50px;
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-footer img {
-    width: 32px;
-    margin: 0 10px;
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 10px;
+}
+
+.search-engines {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.search-engines img {
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.search-engines img:hover {
+  transform: scale(1.1);
 }
