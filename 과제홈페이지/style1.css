@@ -1,0 +1,16 @@
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  margin-top: 20px;
+  background-color: #fffacd;
+  padding: 10px;
+}
+
+.title {
+  color: darkblue;
+  font-size: 36px;
+}
